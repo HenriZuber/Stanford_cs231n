@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  assignment:
+    build: ./
+    ports:
+    - "10001:8888"
+    volumes:
+    - ./:/opt/assignment1
+

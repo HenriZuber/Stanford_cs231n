@@ -1,0 +1,10 @@
+version: '2.3'
+services:
+  boulot:
+    build: ./
+    ports:
+    - "9999:8888"
+    runtime: nvidia
+    volumes:
+    - ./:/opt/assignment3
+
